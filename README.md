@@ -3,12 +3,6 @@ ghostty, cc-switch, claude-code: learning from open information source
 
 
 
-## MCP
-
-好用的MCP工具，联网搜索，图片理解，网页读取，连接数据库，查看开源代码库
-
-
-
 ## Plugin
 
 1. **superpowers（日常开发）:**
@@ -59,11 +53,26 @@ ghostty, cc-switch, claude-code: learning from open information source
 
 
 
+## MCP-config
+
+好用的MCP工具，联网搜索，图片理解，网页读取，连接数据库，查看开源代码库
+
+
+
 ## Skill
 
-1. ~/.claude/CLAUDE.md 相当于 cursor 的rules
+https://skillsmp.com/
+<img width="1462" height="726" alt="image" src="https://github.com/user-attachments/assets/9bca688d-dfbd-4468-9e28-1cbcc4931323" />
 
+## Tips
 
+1. ~/.claude/rules/ ：相当于 cursor 的rules
+
+2. 用 ! 直接跑 Bash：直接执行 shell 命令，并把输出加入对话，例如：!npm test。
+
+3. /plan：先规划
+
+4. 图片分析：可复制图片到终端
 
 
 
