@@ -21,17 +21,21 @@ _claude_
 
 ## Command
 
-_/clear_
+_/clear /compact: for context_
 
 _/pua:pua：keep the loop continue_
 
 _/btw：不中断对话问一个简短问题_
 
+_/rewind：回退代码_
+
+_!：bash模式_
+
 
 
 ## MCP/Tool
 
-_配置好用的MCP/工具：图片理解，网页读取，查看开源代码库_
+_配置好用的MCP/工具：图片理解，网页读取，查看GitHub同类项目_
 
 
 
@@ -60,8 +64,21 @@ _开源网站：https://skillsmcp.com_
 _总结：可以从everything-clause-code中汲取到一些好用的harness_
 
 1. _~/.claude/rules/ ：相当于 cursor 的rules_
-2. _用 ! 直接跑 Bash：直接执行 shell 命令，并把输出加入对话，例如：!npm test。_
-3. _图片分析：可复制图片到终端_
+2. _输入图片和语音提效_
+3. _创建自己经常使用的skill或command_
+
+
+
+## Subagent
+
+1. 长程规划/反思修正
+2. 需要用到不同领域的知识
+
+总之遇到会占用过多上下文或污染上下文（复杂或有冲突）的任务时，
+
+复杂、模糊、综合性、需要拆解的任务时，
+
+就需要用多智能体系统（MAS）
 
 
 
