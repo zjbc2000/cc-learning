@@ -1,88 +1,80 @@
 # cc-learning
-ghostty, cc-switch, claude-code: learning from open information source
+_claude-code: learning from open-source project._
 
 
 
-## Plugin
+## Let's go
 
-1. **superpowers（日常开发）:**
+**# harness is all you need**
 
-/plugin marketplace add obra/superpowers-marketplace
-
-/plugin install superpowers@claude-plugins-official
+_claude_
 
 
 
-2. **claude-hub:**
+##  Task
 
-/plugin marketplace add jarrodwatts/claude-hud
+**/plan**： _拆解出task_
 
-/plugin install claude-hud
-
-/claude-hud:setup
+**# 复杂task采用team模式：分文件夹，多窗口多subagent，获取关键context给主agent**
 
 
 
-3. **everything-claude-code（基础设施）:**
+## Command
 
-- /plugin marketplace add affaan-m/everything-claude-code
+_/clear_
 
-​	/plugin install everything-claude-code@everything-claude-code
+_/pua:pua：keep the loop continue_
 
-- git clone https://github.com/affaan-m/everything-claude-code.git
-
-​	#复制规则（通用 + 语言特定）
-
-​	cp -r everything-claude-code/rules/common/* ~/.claude/rules/
-​	cp -r everything-claude-code/rules/typescript/* ~/.claude/rules/   # 选择你的技术栈
-​	cp -r everything-claude-code/rules/python/* ~/.claude/rules/
-​	cp -r everything-claude-code/rules/golang/* ~/.claude/rules/
-​	cp -r everything-claude-code/rules/perl/* ~/.claude/rules/
-
-- #尝试一个命令（插件安装使用命名空间形式）
-
-​	/everything-claude-code:plan "添加用户认证"
-
-​	#手动安装（选项2）使用简短形式：
-
-​	#/plan "添加用户认证"
-
-​	#查看可用命令
-
-​	/plugin list everything-claude-code@everything-claude-cod
+_/btw：不中断对话问一个简短问题_
 
 
 
-## MCP-config
+## MCP/Tool
 
-好用的MCP工具，联网搜索，图片理解，网页读取，连接数据库，查看开源代码库
+_配置好用的MCP/工具：图片理解，网页读取，查看开源代码库_
 
 
 
 ## Skill
 
-https://skillsmp.com/
-<img width="1462" height="726" alt="image" src="https://github.com/user-attachments/assets/9bca688d-dfbd-4468-9e28-1cbcc4931323" />
+_**/skill-creator：创建属于你的skill吧！**_
 
-## Tips
+_开源网站：https://skillsmcp.com_
 
-1. ~/.claude/rules/ ：相当于 cursor 的rules
+<img width="1462" height="726" alt="image-20260327153613563" src="https://github.com/user-attachments/assets/244da3d2-482d-4e27-b7f2-1cad56994849" />
 
-2. 用 ! 直接跑 Bash：直接执行 shell 命令，并把输出加入对话，例如：!npm test。
 
-3. /plan：先规划
 
-4. 图片分析：可复制图片到终端
+
+## Plugin
+
+- **superpowers（日常开发）**
+
+- **everything-claude-code（harness-learning）**
+- **web-access/claude-mem（基础设施：联网加记忆）**
+
+- **claude-hub**
+
+
+
+_总结：可以从everything-clause-code中汲取到一些好用的harness_
+
+1. _~/.claude/rules/ ：相当于 cursor 的rules_
+2. _用 ! 直接跑 Bash：直接执行 shell 命令，并把输出加入对话，例如：!npm test。_
+3. _图片分析：可复制图片到终端_
 
 
 
 ## TOOLCHAIN
 
-1. **cc-switch(⭐️⭐️⭐️⭐️⭐️)** : switch the model of cc
+1. **cc-switch(⭐️⭐️⭐️⭐️⭐️)** : _switch the model of cc_
 
-2. **ghostty(⭐️⭐️⭐️⭐️⭐️)** : multi-open cc
-3. **claude-hub(⭐️⭐️⭐️) **: shows what's happening in cc - context usage, active tools, running agents, and todo progress
-4. **fzf(⭐️⭐️⭐️)** :ctrl+r 搜索全局命令/ ctrl+t+z 模糊项目
+2. **ghostty(⭐️⭐️⭐️⭐️⭐️)** : _multi-open cc_
+3. **claude-hub(⭐️⭐️⭐️) **: _shows what's happening in cc - context usage, active tools, running agents, and todo progress_
+4. **fzf(⭐️⭐️⭐️)** :_ctrl+r 搜索全局命令/ ctrl+t+z 模糊项目_
 
-5. **zoxide(⭐️⭐️)**: 终端 cd 补全path
-   - **__usage__** : z 项目名
+5. **zoxide(⭐️⭐️)**: _终端 cd 补全path_
+   - **__usage__** : _z 项目名_
+
+
+
