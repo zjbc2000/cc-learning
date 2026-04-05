@@ -53,6 +53,7 @@ _开源网站：https://skillsmcp.com_
 
 
 ## Plugin
+_/plugin: 可以下载官方插件_ 
 
 - **superpowers（日常开发）**
   
