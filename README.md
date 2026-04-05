@@ -37,6 +37,8 @@ _!：bash模式_
 
 _配置好用的MCP/工具：图片理解，网页读取，查看GitHub同类项目_
 
+npm install -g @modelcontextprotocol/server-github
+
 
 
 ## Skill
@@ -53,8 +55,14 @@ _开源网站：https://skillsmcp.com_
 ## Plugin
 
 - **superpowers（日常开发）**
+  
+❯ /plugin marketplace add obra/superpowers-marketplace
+
+
+❯ /plugin install superpowers@superpowers-marketplace
 
 - **everything-claude-code（harness-learning）**
+  
 - **web-access/claude-mem（基础设施：联网加记忆）**
 
 - **claude-hub**
