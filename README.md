@@ -9,6 +9,9 @@ _claude-code: learning from open-source project._
 
 _claude_
 
+**CLAUDE.md**:只记录目标、架构，【约束（技术栈）和测试】。
+
+
 
 
 ##  Task
@@ -78,7 +81,7 @@ _总结：可以从everything-clause-code中汲取到一些好用的harness_
 
 
 
-## Subagent
+## Subagent/Multi-agents
 
 1. 长程规划/反思修正
 2. 需要用到不同领域的知识
@@ -92,14 +95,16 @@ _总结：可以从everything-clause-code中汲取到一些好用的harness_
 
 
 ## TOOLCHAIN
-
+- 切换工具：
 1. **cc-switch(⭐️⭐️⭐️⭐️⭐️)** : _switch the model of cc_
-
-2. **ghostty(⭐️⭐️⭐️⭐️⭐️)** : _multi-open cc_
-3. **claude-hub(⭐️⭐️⭐️) **: _shows what's happening in cc - context usage, active tools, running agents, and todo progress_
-4. **fzf(⭐️⭐️⭐️)** :_ctrl+r 搜索全局命令/ ctrl+t+z 模糊项目_
-
-5. **zoxide(⭐️⭐️)**: _终端 cd 补全path_
+- 日常使用：
+2. **ghostty(⭐️⭐️⭐️⭐️⭐️)** : _多开claude-code_
+3. **claude-hub(⭐️⭐️⭐️)**: _shows context usage, active tools, running agents, and todo progress_
+4. **语音输入**: _含语音功能的输入法，typeoff等模型_
+6. **远程控制**: _happy/remote，其他设备控制claude_
+- 终端工具：
+7. **fzf(⭐️⭐️⭐️)** :_ctrl+r 搜索全局命令/ ctrl+t+z 模糊项目_
+8. **zoxide(⭐️⭐️)**: _终端 cd 补全path_
    - **__usage__** : _z 项目名_
 
 
